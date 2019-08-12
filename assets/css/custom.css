@@ -1,0 +1,579 @@
+
+/*new design css code start*/
+
+
+    
+.box .data{
+    font-weight: bolder;
+    font-size: 23px;
+}
+#rightSection .box .title{
+    
+}
+.box{
+    /*border-left-style:ridge;*/
+    border-bottom-style:ridge;
+    display: inline-table;
+    width: 150px;
+    line-height: 50px;
+    text-align: center;
+    background: #e6e6e6;
+}
+
+#rightSection{
+    margin-left: 30px; 
+}
+
+.nav-item{
+    border: 1px solid gray;
+        background: #e7e9ea;;
+    /*width: 150px;*/
+    /*border-style: inset;*/
+}
+.nav-link i{
+    /*display: block;*/
+    text-align: center;
+}
+.nav-item .nav-link{
+   padding: 10px 15px 10px 25px !important;
+}
+
+.panel_data{
+    margin-top: 5px;
+}
+.profile_search_section input{
+    height: 40px;
+}
+.profile_search_section .searchIcon{
+    position: relative;
+    left: -36px;
+    top: 0px;
+    background: #adadad;
+    padding: 11px 10px 12px 10px;
+    /* line-height: 40px; */
+}
+
+
+
+#profile_section{
+    /*width: 100%;*/
+    margin-top: 10px;
+      background: #ffffff;
+}
+#profile_section #profile_left_section{
+    
+    display: inline-table;
+    width: 20%;
+    border-right-style: inset;
+    padding: 20px !important;
+   
+}
+#profile_section #profile_right_section{
+    
+    display: inline-table;
+    width: 79%;
+/*    border: 1px;
+    border-left-style: inset;*/
+    padding-left: 20px !important;
+    background: #ffffff;
+}
+#profile_top{
+    /*width: 100%;*/
+    margin-top: 10px;
+    padding-bottom: 20px;
+    
+        border-bottom-style: inset;
+}
+#profile_top .profile_top_left{
+    
+    display: inline-table;
+    width: 60%;
+}
+#profile_top .profile_top_right{
+    
+    display: inline-table;
+    text-align: right;
+    width: 39%;
+}
+
+.sortFillter{
+        border: none;
+    width: 150px;
+    background: #e7eaec;
+    padding: 10px;
+    color: #0c96e6;
+    font-weight: bolder;
+}
+.searchMessage{
+    padding-right: 20px;
+}
+
+
+#profile_list{
+    
+}
+.profile_list_item{
+     border-bottom-style: inset;
+     padding-top: 10px;
+     padding-bottom: 10px;
+}
+.profile_list .profile_list_item .profile_list_data{
+    display: inline-table;
+   color: #a6a1a1;
+}
+#profile_list .profile_list_item .section_one{
+/*width: 5%;*/   
+}
+#profile_list .profile_list_item .section_two{
+width: 5%;   
+}
+#profile_list .profile_list_item  .section_three{
+    padding-left: 10px;
+    width: 30%; 
+    
+}
+#profile_list .profile_list_item .section_four{
+width: 30%;   
+}
+#profile_list .profile_list_item .section_five{
+width: 20%;   
+}
+#profile_list .profile_list_item .section_six{
+width: 5%;   
+text-align: right;
+
+}
+.profile_list .profile_list_item .profile_list_data .name{
+    /*background: #d5cccc;*/
+    border-radius: 20px;
+    /*color: #ccc;*/
+    padding: 10px;
+}
+
+.profile_list .active,#interviewList .active{
+    color: #ec3939;
+}
+.profile_list .title{
+    color: #4d5467 !important;
+    padding-bottom: 10px !important;
+    display: block !important;
+    font-family: sans-serif !important;
+    font-weight: bolder !important;
+}
+
+
+
+.sourcingSectionThird{
+   border-bottom-style: inset;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+#condidate{
+    
+}
+#condidate .condidate_list,.condidate_list{
+    border-bottom-style: inset;
+    margin-bottom: 10px;
+}
+#condidate .condidate_list .condidate_item,.condidate_list .condidate_item{
+    display: inline-table;
+}
+
+#condidate .condidate_list .condidate_item .short_name{
+    border-radius: 50px;
+}
+#condidate .condidate_list .name_section {
+    width: 50%;
+    padding-left: 10px;
+}
+#condidate .condidate_list .name_section .active{
+ color: #20823a;
+    font-weight: bolder;
+    font-size: 14px;   
+}
+#condidate .condidate_list .name_section .name{
+    color: #000000;
+}
+#job_board{
+    
+}
+#job_board .condidate_list,#crm .condidate_list,#organic .condidate_list{
+    border-bottom-style: inset;
+    padding: 10px;
+}
+#job_board .condidate_list .condidate_item,#crm .condidate_list .condidate_item,#organic .condidate_list .condidate_item{
+    display: inline-table;
+}
+#job_board .condidate_list .one,#crm .condidate_list .one,#organic .condidate_list .one{
+   width: 5%;
+}
+#job_board .condidate_list .two,#crm .condidate_list .two,#organic .condidate_list .two{
+   width: 10%;
+}
+#job_board .condidate_list .three,#crm .condidate_list .three,#organic  .condidate_list .three{
+   width: 70%;
+}
+#job_board .condidate_list .four,#crm .condidate_list .four,#organic .condidate_list .four{
+   width: 10%;
+}
+
+/*#job_board .condidate_list .condidate_item .short_name{
+    border-radius: 50px;
+}
+#job_board .condidate_list .name_section {
+    width: 50%;
+    padding-left: 10px;
+}
+#job_board .condidate_list .name_section .active{
+ color: #20823a;
+    font-weight: bolder;
+    font-size: 14px;   
+}
+#job_board .condidate_list .name_section .name{
+    color: #000000;
+}*/
+
+.checkbox label{
+    min-height:20px;
+    padding-left:20px;
+    margin-bottom:0;
+    font-weight:400;
+    cursor:pointer
+}
+
+
+.form-group {
+	margin-bottom: 15px
+}
+
+.radio,
+.checkbox {
+	position: relative;
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px
+}
+
+.radio label,
+.checkbox label {
+	min-height: 20px;
+	padding-left: 20px;
+	margin-bottom: 0;
+	font-weight: 400;
+	cursor: pointer
+}
+
+.radio input[type=radio],
+.radio-inline input[type=radio],
+.checkbox input[type=checkbox],
+.checkbox-inline input[type=checkbox] {
+	position: absolute;
+	margin-top: 4px \9;
+	margin-left: -20px
+}
+
+.radio+.radio,
+.checkbox+.checkbox {
+	margin-top: -5px
+}
+
+.radio-inline,
+.checkbox-inline {
+	display: inline-block;
+	padding-left: 20px;
+	margin-bottom: 0;
+	font-weight: 400;
+	vertical-align: middle;
+	cursor: pointer
+}
+
+.radio-inline+.radio-inline,
+.checkbox-inline+.checkbox-inline {
+	margin-top: 0;
+	margin-left: 10px
+}
+
+input[type=radio][disabled],
+input[type=checkbox][disabled],
+input[type=radio].disabled,
+input[type=checkbox].disabled,
+fieldset[disabled] input[type=radio],
+fieldset[disabled] input[type=checkbox] {
+	cursor: not-allowed
+}
+
+.radio-inline.disabled,
+.checkbox-inline.disabled,
+fieldset[disabled] .radio-inline,
+fieldset[disabled] .checkbox-inline {
+	cursor: not-allowed
+}
+
+.radio.disabled label,
+.checkbox.disabled label,
+fieldset[disabled] .radio label,
+fieldset[disabled] .checkbox label {
+	cursor: not-allowed
+}
+
+.form-control-static {
+	padding-top: 7px;
+	padding-bottom: 7px;
+	margin-bottom: 0
+}
+
+.form-control-static.input-lg,
+.form-control-static.input-sm {
+	padding-right: 0;
+	padding-left: 0
+}
+
+.input-sm,
+.form-group-sm .form-control {
+	height: 30px;
+	padding: 5px 10px;
+	font-size: 12px;
+	line-height: 1.5;
+	border-radius: 3px
+}
+
+select.input-sm,
+select.form-group-sm .form-control {
+	height: 30px;
+	line-height: 30px
+}
+
+textarea.input-sm,
+textarea.form-group-sm .form-control,
+select[multiple].input-sm,
+select[multiple].form-group-sm .form-control {
+	height: auto
+}
+
+.input-lg,
+.form-group-lg .form-control {
+	height: 46px;
+	padding: 10px 16px;
+	font-size: 18px;
+	line-height: 1.33;
+	border-radius: 6px
+}
+
+select.input-lg,
+select.form-group-lg .form-control {
+	height: 46px;
+	line-height: 46px
+}
+
+a{
+    color: #858282 !important;
+}
+.dropdown-menu{
+    background: #ffffff !important;
+}
+.dropdown-menu li a{
+    padding-left: 10px;
+    color: #7c7676;
+    display: block;
+   padding: 5px 15px;
+    border-bottom: 1px inset;
+}
+.dropdown-menu li:hover{
+    background: #e2e2e2;
+}
+#page_section{
+        padding: 10px;
+    background: #ffffff;
+    border: 1px solid gray;
+}
+
+#page_section .box{
+    /*border-left-style:ridge;*/
+    border-bottom-style:ridge;
+    display: inline-table;
+    width: 138px;
+    line-height: 50px;
+    text-align: center;
+    background: #e6e6e6;
+}
+
+.top_section{
+    background: #bfbdbc;
+    margin: -10px;
+}
+
+.tab-pane{
+    background: #c0bebc;
+    padding: 10px;
+}
+
+
+#job_list{
+    
+}
+#job_list .condidate_list{
+    /*border-bottom-style: inset;*/
+    border: 1px solid gray;
+    padding: 10px;
+}
+#job_list .condidate_list .condidate_item{
+    display: inline-table;
+}
+#job_list .condidate_list .one{
+   width: 30%;
+}
+#job_list .condidate_list .two{
+    padding-left: 10px;
+   width: 69%;
+}
+
+#job_list .condidate_item select{
+    width: 150px;
+    background: #d3d7da;
+    color: #147cd8;
+}
+#job_list .condidate_item .title,.title{
+    color: #000000;
+    font-weight: bolder;
+}
+#job_list .condidate_item .sub_title,.sub_title{
+    color: #9b9a9a;
+}
+#job_list .condidate_item .box{
+        margin: 2px;
+        width: 13%;
+}
+
+.section{
+    
+}
+.section .left{
+    display: inline-table;
+    width: 50%;
+}
+.section .right{
+    display: inline-table;
+    width: 49%;
+    text-align: right;
+}
+.section .section_data{
+    display: inline-table;
+    padding: 5px;
+}
+.section .mysearch{
+    /*display: block;*/
+    /*width: 100%;*/
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s 
+}
+.section .mysearchBtn{
+    position: relative;
+    left: -38px;
+    padding: 8px;
+    background: none;
+    top: 1px;
+}
+
+.section select{
+    width: 100px;
+    background: #d3d7da;
+    color: #147cd8;
+}
+
+
+#candidate_list{
+    
+}
+
+#candidate_list .left{
+    width: 69%;
+    padding: 10px;
+}
+#candidate_list .right{
+    width: 30%;
+}
+
+#candidate_list .nav-item{
+   background: #946738;
+    color: #ffffff; 
+}
+#candidate_list .nav-item a{
+    color: #ffffff !important; 
+}
+#candidate_list .nav-item a.active{
+    background: #563009;
+    color: #ffffff !important; 
+}
+
+.sort_name{
+    border-radius: 20px;
+    background: #f2efef;
+    display: inline-table;
+    padding: 10px;
+}
+.sub_title{
+    colot: #ccc;
+}
+
+.my_exp{
+    border-bottom-style: inset;padding-top: 10px;
+}
+.new_row{
+    padding: 5px;
+}
+.new_margin{
+    margin: 5px;
+}
+.star-active{
+    color: #f3800a;
+}
+
+#profile_right_section .filter_name{
+    padding: 5px 10px;
+    background: #247cca;
+    border-radius: 15px;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+/*Activity css start*/
+
+
+#activity_panel,#job_ad_panel{
+        background: #ffffff;
+
+}
+#activity_panel .activity_item,
+#job_ad_panel .activity_item{
+        padding: 10px 0px;
+        border-bottom-style: inset;
+
+}
+
+#job_ad_panel .job_item{
+    margin: 10px 0px;
+}
+
+/*Activity css end*/
+
+
+
+
+
+
+
+/*new design css code End*/

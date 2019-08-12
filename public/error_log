@@ -1,0 +1,16 @@
+[16-Nov-2018 15:16:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/firstaddigital/public_html/vendor/symfony/polyfill-mbstring/Mbstring.php:490
+Stack trace:
+#0 /home/firstaddigital/public_html/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/firstaddigital/public_html/vendor/laravel/framework/src/Illuminate/Support/Str.php(103): mb_strpos(NULL, '/json')
+#2 /home/firstaddigital/public_html/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/firstaddigital/public_html/vendor/laravel/framework/src/Illuminate/Http/Request.php(339): Illuminate\Http\Request->isJson()
+#4 /home/firstaddigital/public_html/vendor/laravel/framework/src/Illuminate/Http/Request.php(367): Illuminate\Http\Request->getInputSource()
+#5 /home/firstaddigital/public_html/vendor/laravel/framework/src/Illuminate/Http/Request.php(59): Illuminate\Htt in /home/firstaddigital/public_html/vendor/symfony/polyfill-mbstring/Mbstring.php on line 490
+[16-Nov-2018 15:25:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strpos() in /home/firstaddigital/public_html/vendor/symfony/polyfill-mbstring/Mbstring.php:490
+Stack trace:
+#0 /home/firstaddigital/public_html/vendor/symfony/polyfill-mbstring/bootstrap.php(34): Symfony\Polyfill\Mbstring\Mbstring::mb_strpos(NULL, '/json', 0, 'UTF-8')
+#1 /home/firstaddigital/public_html/vendor/laravel/framework/src/Illuminate/Support/Str.php(103): mb_strpos(NULL, '/json')
+#2 /home/firstaddigital/public_html/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php(34): Illuminate\Support\Str::contains(NULL, Array)
+#3 /home/firstaddigital/public_html/vendor/laravel/framework/src/Illuminate/Http/Request.php(339): Illuminate\Http\Request->isJson()
+#4 /home/firstaddigital/public_html/vendor/laravel/framework/src/Illuminate/Http/Request.php(367): Illuminate\Http\Request->getInputSource()
+#5 /home/firstaddigital/public_html/vendor/laravel/framework/src/Illuminate/Http/Request.php(59): Illuminate\Htt in /home/firstaddigital/public_html/vendor/symfony/polyfill-mbstring/Mbstring.php on line 490
